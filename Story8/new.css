@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Images/download\ \(2\).jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 30%;
+    height: 440px;
+    background:rgb(243, 243, 149);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+    font-size: 29px;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+padding-top: 20px;
+}
+
+.first {
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.third {
+    margin-right: 34px; 
+    margin-right: 40px;
+    margin-left: 50px;
+
+}
+
+.date {
+    display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+margin: 28px 30px;
+
+
+}
+.item1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 248, 247);
+    align-items: center;
+    align-items: center;
+}
+.num1{
+    background-color:rgb(243, 110, 110);
+    color: aliceblue;
+}
+.num2{
+    border: 2px solid palevioletred;
+}
